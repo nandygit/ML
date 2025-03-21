@@ -1,1 +1,57 @@
+A system of linear equations consists of multiple linear equations with shared variables, where each equation represents a line, plane, or higher-dimensional surface based on the number of variables.
+The solution is the set of variable values that satisfy all equations, often corresponding to the points of intersection of the represented lines or planes.
+Matrix Equation
+These equations can be written in matrix form as AX = B, where:
+
+
+A is the coefficient matrix,
+X is the column vector of variables [x1, x2, x3,…., xn ]T ,
+B is the column vector of constants [b1 + b2 + b3 + …. + bn ]T.
+
+​
+ 
+
+Solving the system involves finding the values of x1, x2, x3,…., xn that satisfy all equations simultaneously.
+
+Solution of a System of Linear Equation
+A system of linear equations can have three possible types of solutions:
+
+No Solution (Inconsistent System)
+Unique Solution (Consistent and Determinate System)
+Infinite Solutions (Consistent and Indeterminate System)
+The existence and nature of solutions depend on the properties of the coefficient matrix A and the augmented matrix [A:B].
+
+A system of linear equations can be categorized into two types:
+
+Homogeneous System (AX=0)
+Non-Homogeneous System (AX=B)
+The solution of these systems depends on the rank of the coefficient matrix A and the rank of the augmented matrix [A:B].
+
+1) System of Homogeneous linear equations AX = 0
+
+X = 0 is always a solution; means all the unknowns has same value as zero. (This is also called trivial solution)
+If P(A) = number of unknowns : Unique solution ( P(A) = Rank of matrix A).
+If P(A) < number of unknowns : Infinite number of solutions.
+Since a homogeneous system always has at least one solution (X = 0), it is always consistent.
+
+Example of Homogeneous System in three variable
+
+
+x + y – z = 0
+x + y + z = 0
+x – y + 2z = 0
+
+
+2) System of Non-Homogeneous linear equations AX = B
+
+If P[A:B] ≠ P(A), No solution.
+If P[A:B] = P(A) = Number of unknown variables, unique solution.
+If P[A:B] = P(A) ≠ Number of unknown, infinite number of solutions.
+Example of Non – Homogeneous System in three variable
+
+
+x + y – 2z = 6
+x – 6y + z = 9
+2x – y + 2z = 2
+
 
